@@ -1,0 +1,11 @@
+profile: EG-FEDERAL-1
+
+description: Federal execution governance requirements
+
+requirements:
+  authorization_required: true
+  fail_closed: true
+  immutable_audit: true
+  lineage_required: true
+  independent_verification: true
+  audit_retention_required: true

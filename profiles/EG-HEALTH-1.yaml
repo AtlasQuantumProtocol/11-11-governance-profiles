@@ -1,0 +1,9 @@
+profile: EG-HEALTH-1
+
+description: Healthcare execution governance requirements
+
+requirements:
+  authorization_required: true
+  immutable_audit: true
+  patient_lineage_required: true
+  independent_verification: true

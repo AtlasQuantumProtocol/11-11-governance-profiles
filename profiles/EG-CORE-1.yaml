@@ -1,0 +1,10 @@
+profile: EG-CORE-1
+
+description: Core execution governance requirements
+
+requirements:
+  authorization_required: true
+  fail_closed: true
+  immutable_audit: true
+  lineage_required: true
+  independent_verification: true

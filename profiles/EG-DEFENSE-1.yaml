@@ -1,0 +1,12 @@
+profile: EG-DEFENSE-1
+
+description: Defense-grade execution governance requirements
+
+requirements:
+  authorization_required: true
+  fail_closed: true
+  immutable_audit: true
+  lineage_required: true
+  independent_verification: true
+  hardware_attestation: true
+  pq_verification: true

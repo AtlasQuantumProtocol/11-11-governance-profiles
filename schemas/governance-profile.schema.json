@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "11/11 Governance Profile",
+  "type": "object",
+  "properties": {
+    "profile": { "type": "string" },
+    "description": { "type": "string" },
+    "requirements": { "type": "object" }
+  },
+  "required": ["profile", "requirements"]
+}
