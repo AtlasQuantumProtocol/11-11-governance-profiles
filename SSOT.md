@@ -1,17 +1,22 @@
-# 11/11 Lineage Verifier — SSOT
+# 11/11 Governance Profiles — SSOT
 
 Production Baseline Established: June 19, 2026
 
 EA11_EVIDENCE_STATE_V2_2
 
-pq_enforcement: REQUIRED
-pq_verification: VERIFIED
+Current Production Profile
 
-ML-DSA-65: VALID
-SLH-DSA-SHA2-128f: VALID
+ML-DSA-65
+SLH-DSA-SHA2-128f
 
-Ledger Integrity: 100%
+PQ Enforcement REQUIRED
 
-Lineage Verification: ACTIVE
+Phase V Profile
+
+CNSA_2_0_PROFILE
+
+ML-DSA-87
+ML-KEM-1024
+LMS/XMSS
 
 Execution Governance™
