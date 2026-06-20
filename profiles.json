@@ -1,0 +1,44 @@
+{
+  "current_production_profile": {
+    "name": "EA11_PRODUCTION_BASELINE",
+    "evidence_state": "EA11_EVIDENCE_STATE_V2_2",
+    "pq_enforcement": "REQUIRED",
+    "pq_verification": "VERIFIED",
+    "signatures": [
+      {
+        "algorithm": "ML-DSA-65",
+        "fips": "FIPS 204",
+        "status": "VALID"
+      },
+      {
+        "algorithm": "SLH-DSA-SHA2-128f",
+        "fips": "FIPS 205",
+        "status": "VALID"
+      }
+    ]
+  },
+  "target_profiles": [
+    {
+      "name": "COMMERCIAL_PROFILE",
+      "status": "PRODUCTION",
+      "signatures": ["ML-DSA-65", "SLH-DSA-SHA2-128f"],
+      "pq_enforcement": "REQUIRED"
+    },
+    {
+      "name": "DEFENSE_PROFILE",
+      "status": "TARGET",
+      "signatures": ["ML-DSA-87", "SLH-DSA-SHA2-128f"],
+      "pq_enforcement": "REQUIRED"
+    },
+    {
+      "name": "NATIONAL_SECURITY_PROFILE",
+      "status": "TARGET",
+      "signatures": ["ML-DSA-87"],
+      "kem": "ML-KEM-1024",
+      "firmware_signing": ["LMS", "XMSS"],
+      "key_custody": "FIPS_140_3_LEVEL_3_HSM_TARGET",
+      "attestation": "TEE_REMOTE_ATTESTATION_TARGET",
+      "transparency": "WITNESSED_LEDGER_TARGET"
+    }
+  ]
+}
