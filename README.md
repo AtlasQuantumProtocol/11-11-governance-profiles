@@ -1,3 +1,5 @@
+> **STATUS: Frozen reference — no active development (preserved for licensing/acquisition)**
+
 # 11/11 Governance Profiles
 
 Machine-readable execution governance conformance profiles.
